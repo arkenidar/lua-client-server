@@ -9,7 +9,7 @@
           "type": "lua-local", // https://marketplace.visualstudio.com/items?itemName=tomblind.local-lua-debugger-vscode
           "name": "Debug socket-file-server.lua",
           "program": {
-            "lua": "lua5.1",
+            "lua": "lua", // "lua", "lua5.1" (etc), or "luajit" etc
             "file": "${workspaceFolder}/socket-file-server.lua"
           },
           "stopOnEntry": false
